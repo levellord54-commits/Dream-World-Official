@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DreamWorld Membership Form</title>
+<style>
+body{
+font-family:Arial, sans-serif;
+background:#f4f8ff;
+padding:20px;
+}
+
+.container{
+max-width:800px;
+margin:auto;
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+h1,h2{
+text-align:center;
+color:#0066cc;
+}
+
+label{
+display:block;
+margin-top:15px;
+font-weight:bold;
+}
+
+input, select, textarea{
+width:100%;
+padding:10px;
+margin-top:5px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+margin-top:20px;
+width:100%;
+padding:12px;
+background:#0066cc;
+color:white;
+border:none;
+border-radius:5px;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#004c99;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<h1>🌟 DREAMWORLD 🌟</h1>
+<h2>Membership Registration Form</h2>
+
+<form>
+
+<label>Full Name</label>
+<input type="text" placeholder="Enter your full name">
+
+<label>Date of Birth</label>
+<input type="date">
+
+<label>Gender</label>
+<select>
+<option>Select Gender</option>
+<option>Male</option>
+<option>Female</option>
+</select>
+
+<label>Phone Number</label>
+<input type="tel" placeholder="Enter phone number">
+
+<label>Email Address</label>
+<input type="email" placeholder="Enter email">
+
+<label>Region</label>
+<input type="text" placeholder="Enter your region">
+
+<label>Town/City</label>
+<input type="text" placeholder="Enter town or city">
+
+<label>Talent Category</label>
+<select>
+<option>Select Talent</option>
+<option>Music</option>
+<option>Dance</option>
+<option>Acting</option>
+<option>Sports</option>
+<option>Poetry</option>
+<option>Drawing</option>
+<option>Fashion</option>
+<option>Content Creation</option>
+<option>Other</option>
+</select>
+
+<label>Describe Your Talent</label>
+<textarea rows="5" placeholder="Tell us about your talent"></textarea>
+
+<label>Dream or Goal</label>
+<textarea rows="4" placeholder="What do you want to achieve?"></textarea>
+
+<label>
+<input type="checkbox">
+I agree to follow the DreamWorld Constitution and respect all members.
+</label>
+
+<button type="submit">Submit Application</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
